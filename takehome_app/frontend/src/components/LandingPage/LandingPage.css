@@ -1,0 +1,32 @@
+.landing-page {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 50px;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid white;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
