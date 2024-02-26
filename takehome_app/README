@@ -1,0 +1,57 @@
+# Food Truck Finder App
+
+This is a web application that helps users find nearby food trucks. It provides information about food trucks in the area and displays their locations on a map.
+
+## Getting Started
+
+Follow these steps to set up and run the application:
+
+1. **Install Python Dependencies**: Install the required Python packages by running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. **Set Up Environment Variables**: Place the provided environment files (`backend/.env` for the database URI and `frontend/.env` for the Google Maps API key) in their respective directories.
+
+
+3. **Seed the Database**: Run `seed.py` to populate the database with food truck data.
+
+    ```bash
+    python seed.py
+    ```
+
+4. **Run the Backend**: Navigate to the `backend` directory and start the Flask server by running `app.py`.
+
+    ```bash
+    cd backend
+    python app.py
+    ```
+
+5. **Install Frontend Dependencies**: Navigate to the `frontend` directory and install the required npm packages:
+
+    ```bash
+    cd frontend
+    npm install
+    ```
+
+6. **Run the Frontend**: Start the React frontend by running:
+
+    ```bash
+    npm start
+    ```
+
+7. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to access the Food Truck Finder app.
+
+## Additional Notes
+
+- This application uses the Google Maps React API for displaying maps and markers.
+
+- The data used in the application is sourced from the Palo Alto Food Trucks dataset.
+
+## Future Improvements
+
+Given more time, additional features could be implemented, such as:
+
+- Embedding Google Reviews for food trucks.
+- Parsing menu options and providing more detailed information about each food truck.
+- Enhancing the user interface and user experience.
