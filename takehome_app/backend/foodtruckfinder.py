@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from dist import dist
 
 load_dotenv()
-# Define the database connection string
 DATABASE_URL = os.getenv('DATABASE_URL')
 engine = create_engine(DATABASE_URL)
 
