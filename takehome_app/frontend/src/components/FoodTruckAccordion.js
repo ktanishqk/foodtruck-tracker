@@ -6,7 +6,7 @@ const FoodTruckAccordion = ({ truck }) => {
   return (
     <Accordion>
       <Panel title={truck.Applicant}>
-        <Truck latitude={truck.Latitude} longitude={truck.Longitude} />
+        <Truck latitude={truck.Latitude} longitude={truck.Longitude} address={truck.Address} />
       </Panel>
     </Accordion>
   );

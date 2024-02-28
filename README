@@ -1,0 +1,31 @@
+# Food Truck Finder App
+
+This is a web application that helps users find nearby food trucks. It provides information about food trucks in the area and displays their locations on a map.
+
+## Getting Started
+
+Follow these steps to set up and run the application:
+
+1. **Install Docker and Docker Compose**: Download and install Docker from [https://www.docker.com/get-started](https://www.docker.com/get-started). Docker Compose is included with Docker Desktop for Windows and macOS but requires separate installation on Linux. You can install Docker Compose by following the instructions at [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/).
+
+2. **Run the Application**: Navigate to the project directory containing the `docker-compose.yml` file and run the following command to start the application:
+
+    ```bash
+    docker-compose up
+    ```
+
+3. **Access the Application**: Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Food Truck Finder app.
+
+## Additional Notes
+
+- This application uses the Google Maps React API for displaying maps and markers.
+
+- The data used in the application is sourced from the Palo Alto Food Trucks dataset.
+
+## Future Improvements
+
+Given more time, additional features could be implemented, such as:
+
+- Embedding Google Reviews for food trucks.
+- Parsing menu options and providing more detailed information about each food truck.
+- Enhancing the user interface and user experience.
