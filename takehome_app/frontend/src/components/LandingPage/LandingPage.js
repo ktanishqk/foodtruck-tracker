@@ -25,7 +25,7 @@ const LandingPage = ({ isLoading, foodTrucks, fetchFoodTrucks}) => {
   return (
     <div className="landing-page">
       <HeadingLevel>
-        <Heading styleLevel={4}>Food Truck Finder</Heading>
+        <Heading styleLevel={4} marginBottom="50px">Food Truck Finder</Heading>
       </HeadingLevel>
       <RadiusComponent radius={radius} onChange={handleRadiusChange} />
       <ButtonComponent onClick={handleClick} isLoading={loading} />
